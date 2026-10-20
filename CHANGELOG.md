@@ -4,7 +4,7 @@ https://github.com/tetherball88/Lover-s-Ledger/releases/tag/v1.1.0
 
 Requires SKSE, SKSE Menu Framework and OStim. Optional: SexLab AE or SexLab P+, SkyrimNet 0.25.0+.
 
-## v0.1.1 (unreleased)
+## v0.1.1 (2026-10-20)
 
 ### SexLab support
 - **SexLab AE and P+ scenes are recorded**: `TTLL_SexlabIntegration` (was a placeholder) feeds `TTLL_ThreadsCollector` the same way `TTLL_OstimIntegration` does. SexLab threads use collector ids `-1` to `-15` (`-1 - tid`), so they never collide with OStim ids. SexLab acts are mapped to OStim action names, so counts from both frameworks merge.
